@@ -1,6 +1,8 @@
+package May_Tinh_Don_Gian_Test;
+
 import May_Tinh_Don_Gian.SimpleCalculator;
-import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 
 import static org.junit.jupiter.api.Assertions.*;
