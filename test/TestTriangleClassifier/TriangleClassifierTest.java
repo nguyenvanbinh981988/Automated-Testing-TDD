@@ -11,7 +11,7 @@ public class TriangleClassifierTest {
     @DisplayName("equilateral triangle:")
     public void TesTriangle1() {
         double a = 2, b = 2, c = 2;
-        String expect = "this isn't a equilateral triangle";
+        String expect = "this is a equilateral triangle";
 
         TriangleClassifierClass Triangle = new TriangleClassifierClass();
         Assertions.assertEquals(expect, Triangle.creatTriangle(a,b,c));
@@ -22,7 +22,7 @@ public class TriangleClassifierTest {
     @DisplayName("equilateral triangle:")
     public void TesTriangle2() {
         double a = 2, b = 2, c = 3;
-        String expect = "this isn't a isosceles triangle";
+        String expect = "this is a isosceles triangle";
 
         TriangleClassifierClass Triangle = new TriangleClassifierClass();
         Assertions.assertEquals(expect, Triangle.creatTriangle(a,b,c));
@@ -33,7 +33,7 @@ public class TriangleClassifierTest {
     @DisplayName("equilateral triangle:")
     public void TesTriangle3() {
         double a = 3, b = 4, c = 5;
-        String expect = "this isn't a normal triangle";
+        String expect = "this is a normal triangle";
 
         TriangleClassifierClass Triangle = new TriangleClassifierClass();
         Assertions.assertEquals(expect, Triangle.creatTriangle(a,b,c));
